@@ -39,7 +39,7 @@
     <string name="videos">Videos</string>
     <string name="audio_desc">Optiones de reproduction de audio</string>
     <string name="properties">Proprietates</string>
-    <string name="fast_playback_speed">%.2fx velocitate</string>
+    <string name="fast_playback_speed">%.1fx velocitate</string>
     <string name="scan">Scannar</string>
     <string name="video_track">Tracia de video</string>
     <string name="delete">Deler</string>
@@ -167,7 +167,7 @@
     <string name="sample_rate">Frequentia de specimen</string>
     <string name="frame_rate">Frequentia de quadros</string>
     <string name="long_press_gesture">Gesto de puslation longe</string>
-    <string name="long_press_gesture_desc">Pulsa longe pro reproducer a velocitate %.2fx</string>
+    <string name="long_press_gesture_desc">Pulsa longe pro reproducer a velocitate %.1fx</string>
     <string name="zoom_gesture">Gesto de zoom</string>
     <string name="pause_on_headset_disconnect">Pausa in disconnecter</string>
     <string name="permission_settings">Le application Next Player besonia le permission \"%1$s\" pro acceder e reproducer files de medios. Sin illo, le accesso de medios e reproduction non functionara. Pro usar plenmente le application, concede le permission ab le parametros proque illo ha essite permanentemente refusate.</string>

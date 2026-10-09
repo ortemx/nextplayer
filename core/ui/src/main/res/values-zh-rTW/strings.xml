@@ -19,7 +19,7 @@
     <string name="remember_selections">記住選擇</string>
     <string name="remember_selections_description">記憶個別檔案設定，例如音軌、字幕軌道等</string>
     <string name="landscape_reverse">橫向翻轉</string>
-    <string name="long_press_gesture_desc">長按以 %.2fx 速度播放</string>
+    <string name="long_press_gesture_desc">長按以 %.1fx 速度播放</string>
     <string name="network_stream">網路串流</string>
     <string name="double_tap_description">選擇雙輕觸手勢作用</string>
     <string name="oldest">最舊</string>
@@ -52,7 +52,7 @@
     <string name="on">開啟</string>
     <string name="subtitle_text_bold_desc">使用粗體文字於字幕</string>
     <string name="none">無</string>
-    <string name="fast_playback_speed">%.2fx 速度</string>
+    <string name="fast_playback_speed">%.1fx 速度</string>
     <string name="high_contrast_dark_theme">高對比深色主題</string>
     <string name="autoplay_settings">自動播放</string>
     <string name="resume_description">從停止時的進度恢復播放影片</string>

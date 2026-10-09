@@ -184,9 +184,9 @@
     <string name="file">Plik</string>
     <string name="format">Format</string>
     <string name="video_track">Ścieżka wideo</string>
-    <string name="fast_playback_speed">Prędkość %.2fx</string>
+    <string name="fast_playback_speed">Prędkość %.1fx</string>
     <string name="long_press_gesture">Gest przytrzymania</string>
-    <string name="long_press_gesture_desc">Przytrzymanie powoduje odtwarzanie z prędkością %.2fx</string>
+    <string name="long_press_gesture_desc">Przytrzymanie powoduje odtwarzanie z prędkością %.1fx</string>
     <string name="zoom_gesture_description">Uszczypnij, aby powiększyć wideo</string>
     <string name="high_contrast_dark_theme_desc">Używa czystego czarnego tła dla ciemnego motywu</string>
     <string name="system_volume_panel_desc">Wyświetla panel głośności systemu podczas regulacji głośności z włączonym zestawem słuchawkowym</string>

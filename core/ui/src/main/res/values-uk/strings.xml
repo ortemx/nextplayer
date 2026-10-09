@@ -158,10 +158,10 @@
     <string name="extension">Розширення</string>
     <string name="path">Шлях</string>
     <string name="resolution">Роздільність</string>
-    <string name="long_press_gesture_desc">Тривале натискання для відтворення зі швидкістю %.2fx</string>
+    <string name="long_press_gesture_desc">Тривале натискання для відтворення зі швидкістю %.1fx</string>
     <string name="long_press_gesture">Тривале натискання</string>
     <string name="require_audio_focus">Вимагати аудіо фокус</string>
-    <string name="fast_playback_speed">%.2fx швидкість</string>
+    <string name="fast_playback_speed">%.1fx швидкість</string>
     <string name="require_audio_focus_desc">Призупиніть відтворення відео іншими програвачами, поки цей програвач відтворює відео, і навпаки.</string>
     <string name="volume_boost_desc">Підвищення гучності звуку до 200%</string>
     <string name="file">Файл</string>

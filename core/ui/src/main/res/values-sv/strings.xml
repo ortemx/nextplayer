@@ -85,7 +85,7 @@
     <string name="embedded_styles">Inbäddade stilar</string>
     <string name="controller_timeout">Timeout för kontrollenheten</string>
     <string name="share">Dela</string>
-    <string name="fast_playback_speed">%.2fx hastighet</string>
+    <string name="fast_playback_speed">%.1fx hastighet</string>
     <string name="thumbnail">Miniatyrbild</string>
     <string name="okay">Okej</string>
     <string name="about_description">Version, tack till</string>
@@ -145,7 +145,7 @@
     <string name="seek_increment">Sök inkrement</string>
     <string name="subtitle_text_encoding">Kodning av undertexter</string>
     <string name="long_press_gesture">Lång trycksgest</string>
-    <string name="long_press_gesture_desc">Tryck länge för att spela upp i %.2fx hastighet</string>
+    <string name="long_press_gesture_desc">Tryck länge för att spela upp i %.1fx hastighet</string>
     <string name="best_fit">Bästa passform</string>
     <string name="stretch">Sträck ut</string>
     <string name="crop">Beskär</string>

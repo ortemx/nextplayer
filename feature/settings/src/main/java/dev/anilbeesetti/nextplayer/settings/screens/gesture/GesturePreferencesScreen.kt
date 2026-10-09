@@ -28,6 +28,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import dev.anilbeesetti.nextplayer.core.common.extensions.round
 import dev.anilbeesetti.nextplayer.core.common.extensions.toString
 import dev.anilbeesetti.nextplayer.core.model.DoubleTapGesture
 import dev.anilbeesetti.nextplayer.core.model.PlayerPreferences
@@ -251,7 +252,7 @@ private fun GesturePreferencesScreenContent(
 
                 GesturePreferenceDialog.LongPressControlsSpeedDialog -> {
                     var longPressControlsSpeed by remember {
-                        mutableFloatStateOf(state.preferences.longPressControlsSpeed.coerceIn(1.0f, 4.0f))
+                        mutableFloatStateOf(state.preferences.longPressControlsSpeed)
                     }
 
                     NextDialogWithDoneAndCancelButtons(
@@ -272,9 +273,8 @@ private fun GesturePreferencesScreenContent(
                             )
                             Slider(
                                 value = longPressControlsSpeed,
-                                onValueChange = { longPressControlsSpeed = it },
-                                valueRange = 1.0f..4.0f,
-                                steps = 11,
+                                onValueChange = { longPressControlsSpeed = it.round(1) },
+                                valueRange = 0.2f..4.0f,
                             )
                         },
                     )

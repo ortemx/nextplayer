@@ -139,9 +139,9 @@
     <string name="delete">Hapus</string>
     <string name="delete_file">File berikut akan dihapus secara permanen</string>
     <string name="subtitle_text_encoding">Pengkodean teks subtitle</string>
-    <string name="fast_playback_speed">Kecepatan %.2fx</string>
+    <string name="fast_playback_speed">Kecepatan %.1fx</string>
     <string name="long_press_gesture">Gestur tekan lama</string>
-    <string name="long_press_gesture_desc">Tekan lama untuk memutar dengan kecepatan %.2fx</string>
+    <string name="long_press_gesture_desc">Tekan lama untuk memutar dengan kecepatan %.1fx</string>
     <string name="best_fit">Paling sesuai</string>
     <string name="stretch">Pelebaran</string>
     <string name="crop">Pangkas</string>

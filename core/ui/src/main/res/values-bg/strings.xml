@@ -112,9 +112,9 @@
     <string name="share">Сподели</string>
     <string name="delete">Изтрий</string>
     <string name="delete_file">Следният файл ще бъде изтрит за постоянно</string>
-    <string name="fast_playback_speed">%.2fx скорост</string>
+    <string name="fast_playback_speed">%.1fx скорост</string>
     <string name="long_press_gesture">Жест с продължително натискане</string>
-    <string name="long_press_gesture_desc">Продължително натискане за изпълнение със %.2fx скорост</string>
+    <string name="long_press_gesture_desc">Продължително натискане за изпълнение със %.1fx скорост</string>
     <string name="stretch">Разтягане</string>
     <string name="best_fit">Най-подходящ</string>
     <string name="crop">Подрязване</string>

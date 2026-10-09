@@ -127,7 +127,7 @@
     <string name="fields">Câmpuri</string>
     <string name="zoom_gesture_description">Ciupiți pentru a mări videoclipul</string>
     <string name="codec">Codec</string>
-    <string name="long_press_gesture_desc">Țineți apăsat pentru a reda la viteza %.2fx</string>
+    <string name="long_press_gesture_desc">Țineți apăsat pentru a reda la viteza %.1fx</string>
     <string name="long_press_gesture">Gest apăsare lungă</string>
     <string name="require_audio_focus">Necesită focalizare audio</string>
     <string name="controller_timeout">Control timeout</string>
@@ -135,7 +135,7 @@
     <string name="video_software_decoders">Decoder video soft.</string>
     <string name="audio_desc">Opțiuni pentru redare audio</string>
     <string name="properties">Proprietăți</string>
-    <string name="fast_playback_speed">Viteză %.2fx</string>
+    <string name="fast_playback_speed">Viteză %.1fx</string>
     <string name="high_contrast_dark_theme">Temă întunecată cu contrast ridicat</string>
     <string name="seconds">%1$s secunde</string>
     <string name="channels">Canale</string>

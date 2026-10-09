@@ -84,7 +84,7 @@
     <string name="subtitle_text_bold_desc">Usa testo in grassetto per sottotitolo</string>
     <string name="embedded_styles_desc">Applica stili incorporati che sono presenti nei file sottotitolo, come ASS e altri</string>
     <string name="seek_increment">Incremento ricerca</string>
-    <string name="fast_playback_speed">%.2fx velocità</string>
+    <string name="fast_playback_speed">%.1fx velocità</string>
     <string name="hundred_percent">100%</string>
     <string name="bitrate">Bitrate</string>
     <string name="high_contrast_dark_theme_desc">Usa sfondo nero assoluto per tema scuro</string>
@@ -184,7 +184,7 @@
     <string name="open_network_stream">Apri flusso di rete</string>
     <string name="controller_timeout">Controllo Timeout</string>
     <string name="long_press_gesture">Gesture lunga pressione</string>
-    <string name="long_press_gesture_desc">Premi a lungo per riprodutto alla %.2fx velocità</string>
+    <string name="long_press_gesture_desc">Premi a lungo per riprodutto alla %.1fx velocità</string>
     <string name="navigate_up">Vai su</string>
     <string name="player_controls_exit">Vai su</string>
     <string name="mark_last_played_media_desc">Contrassegna gli ultimi contenuti multimediali riprodotti nella home e in ciascuna cartella</string>

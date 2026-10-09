@@ -158,10 +158,10 @@
     <string name="path">रास्ता</string>
     <string name="thumbnail">थंमनेल</string>
     <string name="resolution">रिज़ॉल्यूशन</string>
-    <string name="long_press_gesture_desc">%.2fx गति पर चलाने के लिए देर तक दबाएँ</string>
+    <string name="long_press_gesture_desc">%.1fx गति पर चलाने के लिए देर तक दबाएँ</string>
     <string name="long_press_gesture">देर तक दबाने का इशारा</string>
     <string name="require_audio_focus">ऑडियो फ़ोकस की आवश्यकता है</string>
-    <string name="fast_playback_speed">%.2fx गति</string>
+    <string name="fast_playback_speed">%.1fx गति</string>
     <string name="require_audio_focus_desc">जब यह प्लेयर वीडियो चला रहा हो तो अन्य प्लेयर्स को रोकें, और इसके विपरीत।</string>
     <string name="codec">कोडेक</string>
     <string name="properties">विशेषताएं</string>

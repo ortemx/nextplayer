@@ -140,13 +140,13 @@
     <string name="fields">الحقول</string>
     <string name="zoom_gesture_description">افتح اصبعيك لتكبير الفيديو</string>
     <string name="codec">التشفير</string>
-    <string name="long_press_gesture_desc">اضغط مطولاً للتشغيل بسرعة %.2fx</string>
+    <string name="long_press_gesture_desc">اضغط مطولاً للتشغيل بسرعة %.1fx</string>
     <string name="long_press_gesture">ايماءة الضغط المطول</string>
     <string name="require_audio_focus">التركيز الصوتي المطلوب</string>
     <string name="pause_on_headset_disconnect_desc">الإيقاف مؤقتًا عند فصل سماعة الرأس عن الجهاز</string>
     <string name="audio_desc">خيارات تشغيل الصوت</string>
     <string name="properties">الخصائص</string>
-    <string name="fast_playback_speed">سرعة %.2fx</string>
+    <string name="fast_playback_speed">سرعة %.1fx</string>
     <string name="high_contrast_dark_theme">نمط داكن عالي التباين</string>
     <string name="seconds">%1$s ثانية</string>
     <string name="channels">القنوات</string>

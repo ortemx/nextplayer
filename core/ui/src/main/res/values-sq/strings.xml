@@ -141,9 +141,9 @@
     <string name="delete">Fshi</string>
     <string name="delete_file">Skadari i mëposhtëm do të fshihet përfundimisht</string>
     <string name="subtitle_text_encoding">Enkodimi i tekstit të titullit</string>
-    <string name="fast_playback_speed">%.2fx shpejtësi</string>
+    <string name="fast_playback_speed">%.1fx shpejtësi</string>
     <string name="long_press_gesture">Gjest me shtypje të gjatë</string>
-    <string name="long_press_gesture_desc">Shtyp gjatë me lujtë me shpejtësi %.2fx</string>
+    <string name="long_press_gesture_desc">Shtyp gjatë me lujtë me shpejtësi %.1fx</string>
     <string name="best_fit">Përshtatje optimale</string>
     <string name="stretch">Zgjero</string>
     <string name="crop">Preje</string>

@@ -182,9 +182,9 @@
     <string name="share">பங்கு</string>
     <string name="delete">நீக்கு</string>
     <string name="delete_file">பின்வரும் கோப்பு நிரந்தரமாக நீக்கப்படும்</string>
-    <string name="fast_playback_speed">%.2fx விரைவு</string>
+    <string name="fast_playback_speed">%.1fx விரைவு</string>
     <string name="long_press_gesture">நீண்ட செய்தித் தாள் சைகை</string>
-    <string name="long_press_gesture_desc">%.2fx வேகத்தில் விளையாட நீண்ட அழுத்தவும்</string>
+    <string name="long_press_gesture_desc">%.1fx வேகத்தில் விளையாட நீண்ட அழுத்தவும்</string>
     <string name="best_fit">சிறந்த பொருத்தம்</string>
     <string name="zoom_gesture_description">வீடியோவை பெரிதாக்க பிஞ்ச்</string>
     <string name="high_contrast_dark_theme">உயர் மாறுபட்ட இருண்ட கருப்பொருள்</string>

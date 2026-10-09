@@ -124,7 +124,7 @@
     <string name="fields">Campos</string>
     <string name="zoom_gesture_description">Pinçar para ampliar o vídeo</string>
     <string name="codec">Codec</string>
-    <string name="long_press_gesture_desc">Pressione e segure para reproduzir na velocidade %.2fx</string>
+    <string name="long_press_gesture_desc">Pressione e segure para reproduzir na velocidade %.1fx</string>
     <string name="long_press_gesture">Gesto de toque longo</string>
     <string name="require_audio_focus">Requerir foco de áudio</string>
     <string name="autoplay_settings_description">Reproduzir automaticamente o próximo vídeo da pasta atual</string>
@@ -133,7 +133,7 @@
     <string name="video_software_decoders">Software de decodificadores de vídeo</string>
     <string name="audio_desc">Opções de reprodução de áudio</string>
     <string name="properties">Propriedades</string>
-    <string name="fast_playback_speed">%.2fx velocidade</string>
+    <string name="fast_playback_speed">%.1fx velocidade</string>
     <string name="high_contrast_dark_theme">Tema mais escuro</string>
     <string name="autoplay_settings">Reprodução automática</string>
     <string name="seconds">%1$s segundos</string>

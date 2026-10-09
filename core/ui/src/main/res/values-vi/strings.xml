@@ -19,7 +19,7 @@
     <string name="remember_selections">Ghi nhớ lựa chọn</string>
     <string name="remember_selections_description">Ghi nhớ các lựa chọn cho từng tệp như luồng âm thanh, bản phụ đề, v.v</string>
     <string name="landscape_reverse">Ngang đảo ngược</string>
-    <string name="long_press_gesture_desc">Nhấn lâu để phát ở tốc độ %.2fx</string>
+    <string name="long_press_gesture_desc">Nhấn lâu để phát ở tốc độ %.1fx</string>
     <string name="network_stream">Luồng phát qua mạng</string>
     <string name="double_tap_description">Chọn hành động cho cử chỉ nhấn đúp</string>
     <string name="oldest">Cũ nhất</string>
@@ -52,7 +52,7 @@
     <string name="on">Bật</string>
     <string name="subtitle_text_bold_desc">Sử dụng văn bản in đậm cho phụ đề</string>
     <string name="none">Không</string>
-    <string name="fast_playback_speed">%.2fx tốc độ</string>
+    <string name="fast_playback_speed">%.1fx tốc độ</string>
     <string name="high_contrast_dark_theme">Chủ đề tối có độ tương phản cao</string>
     <string name="autoplay_settings">Tự chạy</string>
     <string name="resume_description">Chọn xem có tiếp tục phát video từ điểm bạn đã dừng hay không</string>
