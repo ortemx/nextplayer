@@ -158,9 +158,9 @@
     <string name="extension">Extensão</string>
     <string name="path">Caminho</string>
     <string name="resolution">Resolução</string>
-    <string name="long_press_gesture_desc">Pressione e segure para reproduzir na velocidade %.1fx</string>
+    <string name="long_press_gesture_desc">Pressione e segure para reproduzir na velocidade %.2fx</string>
     <string name="long_press_gesture">Gesto de toque longo</string>
-    <string name="fast_playback_speed">%.1fx velocidade</string>
+    <string name="fast_playback_speed">%.2fx velocidade</string>
     <string name="require_audio_focus_desc">Pausar outros players enquanto este player estiver reproduzindo vídeos e vice-versa.</string>
     <string name="require_audio_focus">Exigir foco no áudio</string>
     <string name="codec">Codec</string>

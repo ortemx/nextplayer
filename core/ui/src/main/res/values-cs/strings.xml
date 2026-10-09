@@ -14,7 +14,7 @@
     <string name="remember_brightness_level_description">Pamatovat úrověn jasu mezi videí</string>
     <string name="about_description">Verze, podpořit, poděkování</string>
     <string name="rename_to">Přejmenovat na</string>
-    <string name="long_press_gesture_desc">Dlouhé klepnutí pro přehrávání v %.1fx rychlosti</string>
+    <string name="long_press_gesture_desc">Dlouhé klepnutí pro přehrávání v %.2fx rychlosti</string>
     <string name="zoom_gesture">Gesto na přiblížení</string>
     <string name="frame_rate">Snímky za sekundu</string>
     <string name="appearance_description">Upravte si vzhled aplikace</string>
@@ -103,7 +103,7 @@
     <string name="language">Jazyk</string>
     <string name="background_play">Přehrávání v pozadí</string>
     <string name="rename">Přejmenovat</string>
-    <string name="fast_playback_speed">%.1fx rychlost</string>
+    <string name="fast_playback_speed">%.2fx rychlost</string>
     <string name="video_track">Stopa Videa</string>
     <string name="seconds">%1$s sekund</string>
     <string name="mark_last_played_media">Označit poslední přehráté video</string>

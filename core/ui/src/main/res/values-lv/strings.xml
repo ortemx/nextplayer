@@ -96,7 +96,7 @@
     <string name="embedded_styles">Iegultie stili</string>
     <string name="seek_increment">Patīšanas solis</string>
     <string name="seconds">%1$s sekundes</string>
-    <string name="fast_playback_speed">%.1fx ātrums</string>
+    <string name="fast_playback_speed">%.2fx ātrums</string>
     <string name="zoom_gesture">Tālummaiņas žests</string>
     <string name="video_track">Video celiņš</string>
     <string name="audio_track">Audio celiņš</string>
@@ -123,7 +123,7 @@
     <string name="device_decoders_only">Izmantot tikai ierīces aparatūras dekoderus</string>
     <string name="delete_file">Šī datne tiks neatgriezeniski dzēsta</string>
     <string name="long_press_gesture">Ilgstoša pieskāriena žests</string>
-    <string name="long_press_gesture_desc">Atskaņo ar %.1fx ātrumu, kad veic ilgstošo pieskārienu</string>
+    <string name="long_press_gesture_desc">Atskaņo ar %.2fx ātrumu, kad veic ilgstošo pieskārienu</string>
     <string name="high_contrast_dark_theme">Tumšs motīvs ar augstu kontrastu</string>
     <string name="double_tap">Dubultpieskāriena žests</string>
     <string name="double_tap_description">Atlasiet dubultpieskāriena žesta darbību</string>

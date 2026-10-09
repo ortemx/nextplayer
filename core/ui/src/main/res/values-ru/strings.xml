@@ -152,10 +152,10 @@
     <string name="seek_increment">Время перемотки</string>
     <string name="decoder_priority">Приоритетные декодеры</string>
     <string name="long_press_gesture">Жест длительного нажатия</string>
-    <string name="fast_playback_speed">%.1fx скорость</string>
+    <string name="fast_playback_speed">%.2fx скорость</string>
     <string name="fields">Поля</string>
     <string name="codec">Кодек</string>
-    <string name="long_press_gesture_desc">Долгое нажатие для установки скорости на %.1fx</string>
+    <string name="long_press_gesture_desc">Долгое нажатие для установки скорости на %.2fx</string>
     <string name="require_audio_focus">Требовать фокусировку аудио</string>
     <string name="properties">Свойства</string>
     <string name="channels">Каналы</string>

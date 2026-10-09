@@ -112,7 +112,7 @@
     <string name="fields">フィールド</string>
     <string name="zoom_gesture_description">ピンチしてビデオをズーム</string>
     <string name="subtitle_text_size">字幕の文字サイズ</string>
-    <string name="long_press_gesture_desc">長押しすると %.1f 倍速で再生されます</string>
+    <string name="long_press_gesture_desc">長押しすると %.2f 倍速で再生されます</string>
     <string name="network_stream">ネットワークストリーム</string>
     <string name="play_file">再生する動画ファイルを開いてください</string>
     <string name="long_press_gesture">長押しジェスチャー</string>
@@ -124,7 +124,7 @@
     <string name="audio_desc">オーディオ再生オプション</string>
     <string name="subtitle_background">字幕の背景</string>
     <string name="subtitle_text_bold_desc">字幕に太字のテキストを使用</string>
-    <string name="fast_playback_speed">%.1f 倍速</string>
+    <string name="fast_playback_speed">%.2f 倍速</string>
     <string name="high_contrast_dark_theme">高コントラストのダークテーマ</string>
     <string name="seconds">%1$s 秒</string>
     <string name="pause_on_headset_disconnect">切断時に一時停止する</string>
