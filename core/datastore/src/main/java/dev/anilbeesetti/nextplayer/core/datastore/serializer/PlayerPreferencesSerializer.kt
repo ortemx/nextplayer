@@ -17,9 +17,15 @@ object PlayerPreferencesSerializer : Serializer<PlayerPreferences> {
 
     override suspend fun readFrom(input: InputStream): PlayerPreferences {
         try {
-            return jsonFormat.decodeFromString(
+            val preferences = jsonFormat.decodeFromString(
                 deserializer = PlayerPreferences.serializer(),
                 string = input.readBytes().decodeToString(),
+            )
+            return preferences.copy(
+                longPressControlsSpeed = preferences.longPressControlsSpeed.coerceIn(
+                    PlayerPreferences.MIN_LONG_PRESS_CONTROLS_SPEED,
+                    PlayerPreferences.MAX_LONG_PRESS_CONTROLS_SPEED,
+                ),
             )
         } catch (exception: SerializationException) {
             throw CorruptionException("Cannot read datastore", exception)

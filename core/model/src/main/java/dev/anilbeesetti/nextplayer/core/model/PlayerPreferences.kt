@@ -60,6 +60,8 @@ data class PlayerPreferences(
 ) {
 
     companion object {
+        const val MIN_LONG_PRESS_CONTROLS_SPEED = 1f
+        const val MAX_LONG_PRESS_CONTROLS_SPEED = 8f
         const val DEFAULT_SEEK_INCREMENT = 10
         const val DEFAULT_SEEK_SENSITIVITY = 0.50f
         const val DEFAULT_VOLUME_GESTURE_SENSITIVITY = 0.50f

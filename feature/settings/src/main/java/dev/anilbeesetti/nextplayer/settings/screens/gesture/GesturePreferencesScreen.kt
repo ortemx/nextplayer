@@ -3,7 +3,6 @@ package dev.anilbeesetti.nextplayer.settings.screens.gesture
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
@@ -16,25 +15,17 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.ListItemDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Slider
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableFloatStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import dev.anilbeesetti.nextplayer.core.common.extensions.round
 import dev.anilbeesetti.nextplayer.core.common.extensions.toString
 import dev.anilbeesetti.nextplayer.core.model.DoubleTapGesture
 import dev.anilbeesetti.nextplayer.core.model.PlayerPreferences
 import dev.anilbeesetti.nextplayer.core.ui.R
 import dev.anilbeesetti.nextplayer.core.ui.components.ListSectionTitle
-import dev.anilbeesetti.nextplayer.core.ui.components.NextDialogWithDoneAndCancelButtons
 import dev.anilbeesetti.nextplayer.core.ui.components.NextTopAppBar
 import dev.anilbeesetti.nextplayer.core.ui.components.PreferenceSlider
 import dev.anilbeesetti.nextplayer.core.ui.components.PreferenceSwitch
@@ -48,6 +39,7 @@ import dev.anilbeesetti.nextplayer.core.ui.preview.DayNightPreview
 import dev.anilbeesetti.nextplayer.core.ui.theme.NextPlayerTheme
 import dev.anilbeesetti.nextplayer.settings.composables.OptionsDialog
 import dev.anilbeesetti.nextplayer.settings.extensions.name
+import kotlin.math.roundToInt
 
 @Composable
 fun GesturePreferencesScreen(
@@ -201,13 +193,25 @@ private fun GesturePreferencesScreenContent(
                     onChecked = { onAction(GesturePreferencesUiEvent.ToggleDoubleTapGesture) },
                     onClick = { onAction(GesturePreferencesUiEvent.ShowDialog(GesturePreferenceDialog.DoubleTapDialog)) },
                 )
-                PreferenceSwitchWithDivider(
+                PreferenceSwitch(
                     title = stringResource(id = R.string.long_press_gesture),
                     description = stringResource(id = R.string.long_press_gesture_desc, state.preferences.longPressControlsSpeed),
                     icon = NextIcons.Tap,
                     isChecked = state.preferences.useLongPressControls,
-                    onChecked = { onAction(GesturePreferencesUiEvent.ToggleUseLongPressControls) },
-                    onClick = { onAction(GesturePreferencesUiEvent.ShowDialog(GesturePreferenceDialog.LongPressControlsSpeedDialog)) },
+                    onClick = { onAction(GesturePreferencesUiEvent.ToggleUseLongPressControls) },
+                )
+                PreferenceSlider(
+                    title = stringResource(R.string.speed),
+                    description = stringResource(R.string.fast_playback_speed, state.preferences.longPressControlsSpeed),
+                    icon = NextIcons.Speed,
+                    enabled = state.preferences.useLongPressControls,
+                    value = state.preferences.longPressControlsSpeed.coerceIn(
+                        PlayerPreferences.MIN_LONG_PRESS_CONTROLS_SPEED,
+                        PlayerPreferences.MAX_LONG_PRESS_CONTROLS_SPEED,
+                    ),
+                    valueRange = PlayerPreferences.MIN_LONG_PRESS_CONTROLS_SPEED..PlayerPreferences.MAX_LONG_PRESS_CONTROLS_SPEED,
+                    steps = 6,
+                    onValueChange = { onAction(GesturePreferencesUiEvent.UpdateLongPressControlsSpeed(it.roundToInt().toFloat())) },
                 )
                 PreferenceSlider(
                     title = stringResource(R.string.seek_increment),
@@ -248,36 +252,6 @@ private fun GesturePreferencesScreenContent(
                             )
                         }
                     }
-                }
-
-                GesturePreferenceDialog.LongPressControlsSpeedDialog -> {
-                    var longPressControlsSpeed by remember {
-                        mutableFloatStateOf(state.preferences.longPressControlsSpeed)
-                    }
-
-                    NextDialogWithDoneAndCancelButtons(
-                        title = stringResource(R.string.long_press_gesture),
-                        onDoneClick = {
-                            onAction(GesturePreferencesUiEvent.UpdateLongPressControlsSpeed(longPressControlsSpeed))
-                            onAction(GesturePreferencesUiEvent.ShowDialog(null))
-                        },
-                        onDismissClick = { onAction(GesturePreferencesUiEvent.ShowDialog(null)) },
-                        content = {
-                            Text(
-                                text = "$longPressControlsSpeed",
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .padding(vertical = 20.dp),
-                                textAlign = TextAlign.Center,
-                                style = MaterialTheme.typography.titleMedium,
-                            )
-                            Slider(
-                                value = longPressControlsSpeed,
-                                onValueChange = { longPressControlsSpeed = it.round(1) },
-                                valueRange = 0.2f..4.0f,
-                            )
-                        },
-                    )
                 }
             }
         }

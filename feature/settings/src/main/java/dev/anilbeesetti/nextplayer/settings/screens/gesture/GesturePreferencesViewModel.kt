@@ -14,6 +14,7 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.core.annotation.InjectedParam
 import org.koin.core.annotation.KoinViewModel
+import kotlin.math.roundToInt
 
 @KoinViewModel
 class GesturePreferencesViewModel(
@@ -139,7 +140,14 @@ class GesturePreferencesViewModel(
 
     private fun updateLongPressControlsSpeed(value: Float) {
         viewModelScope.launch {
-            preferencesRepository.updatePlayerPreferences { it.copy(longPressControlsSpeed = value) }
+            preferencesRepository.updatePlayerPreferences {
+                it.copy(
+                    longPressControlsSpeed = value.roundToInt().toFloat().coerceIn(
+                        PlayerPreferences.MIN_LONG_PRESS_CONTROLS_SPEED,
+                        PlayerPreferences.MAX_LONG_PRESS_CONTROLS_SPEED,
+                    ),
+                )
+            }
         }
     }
 
@@ -184,7 +192,6 @@ data class GesturePreferencesUiState(
 
 sealed interface GesturePreferenceDialog {
     data object DoubleTapDialog : GesturePreferenceDialog
-    data object LongPressControlsSpeedDialog : GesturePreferenceDialog
 }
 
 sealed interface GesturePreferencesUiEvent {
